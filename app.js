@@ -88,7 +88,7 @@ app.put("/players/:playerId/", async (request, response) => {
   const { playerName, jerseyNumber, role } = playerDetails;
   const updatePlayerQuery = `
     UPDATE
-      cricket_team./,
+      cricket_team
     SET
       player_name='Maneesh',
       jersey_number=54,
